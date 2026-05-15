@@ -9,7 +9,7 @@ todays_limit=100000
 total_rewards = 0
 
 while True:
-    print("\n========== SMART ATM SYTEM ==========\n1 → Register\n2 → Login\n3 → Deposit Money\n4 → Withdraw Money\n5 → Check Balance\n6 → Mini Statement\n7 → Change PIN\n8 → Cashback Rewards\n9 → Logout\n0 → Exit")
+    print("\n========== SMART ATM SYSTEM ==========\n1 → Register\n2 → Login\n3 → Deposit Money\n4 → Withdraw Money\n5 → Check Balance\n6 → Mini Statement\n7 → Change PIN\n8 → Cashback Rewards\n9 → Logout\n0 → Exit")
     choice = int(input("\nEnter your choice: "))
 
     match choice:
