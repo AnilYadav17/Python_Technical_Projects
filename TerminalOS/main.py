@@ -1,7 +1,6 @@
 from boot import boot_loading
 from desktop import desktop_loading
 from applications import display_apps
-from applications.Games import display_games
 from applications import utilities
 from applications import mini_terminal
 from applications import settings
@@ -28,7 +27,8 @@ if boot_loading.LOGGED_IN == True:
             case 1:
                 display_apps.display_main()
             case 2:
-                display_games.display_games()
+                show_message("\nFeature under construction!", style="yellow")
+                pause()
                 clear_screen()
                 desktop_loading.load()
             case 3:
